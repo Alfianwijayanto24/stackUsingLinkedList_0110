@@ -87,4 +87,5 @@ while (choice != 5)
 {
         cout << "1. Push" << endl;
         cout << "2. Pop" << endl;
+        cout << "3. Peek" << endl;
 }
