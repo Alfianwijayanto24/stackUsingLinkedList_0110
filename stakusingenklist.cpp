@@ -99,4 +99,14 @@ while (choice != 5)
             cin >> value;
             stack.push(value);//push the value onto the stack
             break;
+        case 2:
+            if(!stack.isempty())
+            {
+                stack.pop();// pop the top value from the stack
+            }
+            else
+            {
+                cout << "Stack is empty. Cannot pop." << endl;
+            }
+            break;
         }}};
