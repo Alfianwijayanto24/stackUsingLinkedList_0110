@@ -86,4 +86,5 @@ int main()
 while (choice != 5)
 {
         cout << "1. Push" << endl;
+        cout << "2. Pop" << endl;
 }
