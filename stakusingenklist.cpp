@@ -69,4 +69,10 @@ int push(int value)
         } //return the value of the top
     }
 
+//isempty operation: Check if the stack is empty
+    bool isempty()
+    {
+        return top == NULL; // Return true if the stack is empty, false otherwise
+    }
 };
+
