@@ -49,4 +49,13 @@ int push(int value)
         cout << "Popped value: " << top->data << endl;
     }
 
+//peel/top operation: Retrive the value of the topser element witchout removing
+    void peek()
+    {
+        if(top== NULL)
+        {
+            cout << "List is Empty." << endl;
+        }
+    }
+
 };
