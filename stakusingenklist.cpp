@@ -92,4 +92,11 @@ while (choice != 5)
         cout << "Enter your choice: ";
         cin >> choice;
 
-}};
+        switch (choice)
+        {
+        case 1:
+            cout << "Enter value to push: ";
+            cin >> value;
+            stack.push(value);//push the value onto the stack
+            break;
+        }}};
