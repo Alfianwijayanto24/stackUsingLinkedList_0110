@@ -76,3 +76,8 @@ int push(int value)
     }
 };
 
+int main()
+{
+    stack stack;
+
+};
